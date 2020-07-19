@@ -1,0 +1,38 @@
+products
+
+id 
+name // required , string, max:100 >> varchar
+desc // required , string >> text 
+price // required , numeric >> double
+img // required , string , max:100
+created_at // required , datatime 
+
+class MSQL
+
+ -class product >> all crud queires
+ -class oreder >> crud 
+ -class comment >> crud 
+
+
+ valoidation
+
+email --> required | email | max:100
+كل الرولز بتاعت الفاليديشن بتشترك في مجموعه من الحاجات 
+*name
+*value
+*validate() وكل حاله ليها حاجه معينه
+الرولز اللي هي:
+*required
+*string
+*numeric
+*email
+
+الحاجات دي بتفكرنا بال templet 
+اللي هو مش كلاس 
+بس بيقول لازم اعمل ال method الفلانيه وهكذا
+
+
+
+
+
+    
